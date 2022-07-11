@@ -152,6 +152,25 @@
             android:exported="false"
             android:label="@string/files" />
 
+        <activity
+            android:name=".SwitchOnAction"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Start Clash Service">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SwitchOffAction"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Shutdown Clash Service">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name=".LogcatService"
             android:exported="false"
