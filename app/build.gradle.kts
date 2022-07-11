@@ -20,6 +20,7 @@ dependencies {
     implementation(libs.androidx.coordinator)
     implementation(libs.androidx.recyclerview)
     implementation(libs.google.material)
+    implementation("com.joaomgcd:taskerpluginlibrary:0.4.1")
 
     val premiumImplementation by configurations
 
