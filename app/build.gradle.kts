@@ -21,11 +21,6 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.google.material)
     implementation("com.joaomgcd:taskerpluginlibrary:0.4.1")
-
-    val premiumImplementation by configurations
-
-    premiumImplementation(libs.appcenter.analytics)
-    premiumImplementation(libs.appcenter.crashes)
 }
 
 tasks.getByName("clean", type = Delete::class) {
